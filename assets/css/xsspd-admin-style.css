@@ -1,0 +1,209 @@
+/* The Modal (background) */
+.xsspd_modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 99999; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	
+}
+.xsspd-pro{
+    color:#2fbb1c;
+    font-weight: inherit;
+    font-size: 14px;
+}
+.xsspd-pro-link{
+    text-decoration: none;
+}
+.xsspd-button-main{
+    display: inline-block;
+    width: 160px
+}
+.xsspd-button-main p.submit{
+    margin: 0px;
+    padding-bottom: 0px;
+}
+/* Modal Content */
+.xsspd_modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 70%;
+	max-height:70%;
+	overflow-y:auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/* width */
+.xsspd_modal-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.xsspd_modal-content::-webkit-scrollbar-track {
+    background: #fff;
+	border-right:1px solid #f1f1f1;
+}
+ 
+/* Handle */
+.xsspd_modal-content::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+.xsspd_modal-content::-webkit-scrollbar-thumb:hover {
+    background: #0085ba; 
+}
+.xsspd_modal_header{
+	padding: 15px 0;
+    text-align: center;
+    background: #0085ba;
+    color: white;
+}
+.xsspd_modal_header h3{
+	margin:0;
+	font-size: 24px;
+	color:white;
+}
+.xsspd_accordin_header h3{
+	margin:0;
+}
+
+.xsspd_dup_options_accordin .xsspd_accordin_header{
+	background:#eee;
+}
+.xsspd_modal-body {margin: 15px; border:1px solid #eee;}
+.xsspd_left, .xsspd_right{
+	float:left;
+	width:50%;
+}
+.xsspd_popup_buttons{
+	text-align:right;
+	margin-top: 20px;
+	padding:1em;
+}
+.xsspd_popup_buttons.xsspd_no_accordin{
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+.xsspd_popup_buttons.xsspd_no_accordin input[type="button"] {
+    min-width: 150px;
+    padding: 3px 12px !important;
+    height: auto !important;
+    margin: 0 5px;
+}
+.xsspd_accordin{
+	border-bottom: 1px solid #aaa;
+}
+.xsspd_accordin_header, .xsspd_panel{
+	margin:0;
+	padding: 1em;
+}
+.xsspd_accordin_replace_words_accordin .xsspd_accordin_header{
+	background: #fbfbfb;
+}
+
+.xsspd_open .xsspd_accordin_header{
+	border-bottom: 1px solid #eee;
+}
+.xsspd_header_left{
+	width:80%;
+	float:left;
+	text-align:left;
+}
+.xsspd_header_right{
+	width:20%;
+	float:right;
+	text-align:right;
+}
+.xsspd_accordin_header label{display:inline-block;width: 45%; font-weight:bold;}
+.xsspd_accordin_header label input{width:80%}
+.xsspd_more_options, .xsspd_remove{
+	display: inline-block;
+	padding: 4px;
+}
+.xsspd_more_options:active, .xsspd_more_options:focus, .xsspd_hide_options:active, .xsspd_hide_options:focus, .xsspd_remove:active, .xsspd_remove:focus{
+	box-shadow:none;
+}
+.xsspd_hide_options{
+	display: inline-block;
+    float: right;
+	padding: 4px;
+	margin-top: 30px;
+}
+.xsspd_input_group{
+	width:100%;
+    margin: 15px 0;
+}
+.xsspd_input_group .xsspd_input_group_label{
+	width:40%;
+	display:block;
+	font-weight:bold;
+	float:left;
+}
+.xsspd_input_group .xsspd_input_group_field{
+	width:60%;
+	display:block;
+	float:right;
+}
+.xsspd_input_group_field label{
+	display:inline-block;
+}
+.select2-dropdown, .select2-drop{
+	z-index:999999 !important;
+}
+.select2-selection, .select2-choices{
+	min-height:unset !important;
+}
+.xsspd_modal li {
+    margin: 0;
+}
+.xsspd_s2_specific_taxonomies,.xsspd_s2_specific_meta_values{
+	display:none;
+}
+.xsspd_specific_meta_values ~ .select2-container, .xsspd_specific_taxonomies ~ .select2-container{
+	display:none;
+}
+.xsspd_modal.select2-search__field{
+	width:100%
+}
+.xsspd_spinner{
+	float: none;
+    margin: 0;
+    opacity: 1;
+    padding: 7px 0;
+    display: none;
+    background-position-x: center;
+    background-position-y: center;
+}
+.xsspd_desc{
+	margin: 0;
+    font-weight: normal;
+    color: #777;
+    margin-left: 5px;
+    font-size: 11px;
+    font-style: italic;
+	padding-right: 5px;
+}
+.xsspd-sep {
+    font-weight: bold;
+    padding: 0 5px;
+}
+.xsspd_success_message, .xsspd_error_message{
+	display: none;
+    padding: 5px;
+    float: left;
+    color: #18e018;
+    font-style: italic;
+}
+.xsspd_error_message{
+	color: red;
+}

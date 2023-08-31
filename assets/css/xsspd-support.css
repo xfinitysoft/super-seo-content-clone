@@ -1,0 +1,69 @@
+.error{
+    outline: 1px solid red;
+}
+.xsspd-col-button {
+    width:380px;
+    float: left;
+    
+}
+.xsspd-button-main{
+    display: inline-block;
+    width: 160px
+}
+.xsspd-button-main p.submit{
+    margin: 0px;
+    padding-bottom: 0px;
+}
+#xsspd_name,#xsspd_email{
+    width: 335px;
+}
+.xs-send-email-notice{
+  display: none;
+}
+.xs-notice-dismiss{
+  display:none;
+}
+.xsspd-send-mail{
+    font-size: 15px !important;
+    font-family: bold;
+    padding: 2px 15px !important;
+}
+
+body{
+  background:#F0F0F1;
+}
+h1{
+    font-size:2em;
+}
+h2, h3 {
+    font-size: 1.3em;
+}
+
+.xsspd_spinner{
+    float: right;
+  margin: 0;
+  opacity: 1;
+  height: 30px;
+  display: none;
+  background-position-x: center;
+  background-position-y: center;
+  
+}
+.xsspd_is_active{
+    display:inline-block;
+    visibility:visible;
+    opacity:1
+}
+.notice-dismiss{
+    padding-top: 15px;
+    display: none; 
+}
+.xsspd-top-margin{
+    margin-top: 20px !important; 
+}
+.xsspd-mail-spinner{
+    margin-top: 38px ;
+}
+html {
+  scroll-padding-top: 50px;
+}
